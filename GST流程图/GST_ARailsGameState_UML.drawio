@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T04:01:17.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9ACFKWAy5LA_R8UPGM3u" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T04:01:45.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-jjHKpI9CtmeE8H9oR8h" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2603" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -131,8 +131,8 @@
         <mxCell id="wbHjeguqodvjs2tDxC9u-119" value="物理线程是否激活" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#000000;" vertex="1" parent="2">
           <mxGeometry x="470" y="800" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wbHjeguqodvjs2tDxC9u-122" value="" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
-          <mxGeometry x="550" y="1000" width="120" height="60" as="geometry" />
+        <mxCell id="wbHjeguqodvjs2tDxC9u-122" value="ARailsGameState::RailsTickA" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
+          <mxGeometry x="518" y="1000" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3" value="PxThread 2" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="800" y="150" width="715.5" height="1020" as="geometry" />
