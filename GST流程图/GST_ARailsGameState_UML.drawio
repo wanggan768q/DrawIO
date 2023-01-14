@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T07:40:24.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0ZFqSVgUVx_-xNwKIxdL" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T07:42:32.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="T2zsph4agSY9nTK2z5IB" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2603" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -131,8 +131,8 @@
         <mxCell id="wbHjeguqodvjs2tDxC9u-119" value="物理线程是否激活" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#000000;" parent="2" vertex="1">
           <mxGeometry x="470" y="800" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wbHjeguqodvjs2tDxC9u-122" value="ARailsGameState::RailsTickA&lt;br&gt;1.强制修正载具的位置,包括启动物理和非启动物理的所有载具，&lt;br&gt;并且包括自己屏幕上别人载具的数据，当前此载具此类载具&lt;br&gt;等待网络同步的时间强制是2秒。" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="2" vertex="1">
-          <mxGeometry x="439" y="1009" width="342" height="80" as="geometry" />
+        <mxCell id="wbHjeguqodvjs2tDxC9u-122" value="ARailsGameState::RailsTickA&lt;br&gt;&lt;br&gt;1. 强制修正载具的位置,包括启动物理和非启动物理的所有载具，并且包括自己屏幕上别人载具的数据，当前此载具此类载具等待网络同步的时间强制是2秒。（RequestNetworkDataRetryTimer = 2.0f;）" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;align=left;" parent="2" vertex="1">
+          <mxGeometry x="439" y="1009" width="342" height="111" as="geometry" />
         </mxCell>
         <mxCell id="3" value="PxThread" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="800" y="150" width="715.5" height="1020" as="geometry" />
