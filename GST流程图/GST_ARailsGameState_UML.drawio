@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T08:42:02.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zRVA1QT4QWmZ_nDt6awD" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T08:43:37.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Nblkk_L_Yl70o86qTDsz" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2535" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -166,12 +166,12 @@
         <mxCell id="x4Ofn-lIwSmjH5Ii23ha-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
           <mxGeometry y="200" width="780" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="x4Ofn-lIwSmjH5Ii23ha-31" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-30">
+        <mxCell id="x4Ofn-lIwSmjH5Ii23ha-31" value="STAT_fdcar_ARailsGameState_RailsTickA_del_cars" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-30">
           <mxGeometry width="323" height="100" as="geometry">
             <mxRectangle width="323" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x4Ofn-lIwSmjH5Ii23ha-32" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-30">
+        <mxCell id="x4Ofn-lIwSmjH5Ii23ha-32" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;删除载具&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-30">
           <mxGeometry x="323" width="457" height="100" as="geometry">
             <mxRectangle width="457" height="100" as="alternateBounds" />
           </mxGeometry>
