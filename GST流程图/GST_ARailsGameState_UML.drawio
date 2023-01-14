@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T02:55:11.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="83TcxQl4u5AYcTaccCOq" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T02:58:53.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="avmHSN1AC4CetQoilw-e" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2603" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="GameThread 1" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="-100" y="140" width="890" height="702" as="geometry" />
+          <mxGeometry x="-110" y="140" width="890" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="wbHjeguqodvjs2tDxC9u-78" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="2">
+          <mxGeometry x="40" y="350" width="720" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wbHjeguqodvjs2tDxC9u-75" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="2">
           <mxGeometry x="40" y="210" width="730" height="110" as="geometry" />
@@ -24,25 +27,25 @@
         <mxCell id="wbHjeguqodvjs2tDxC9u-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.489;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;" edge="1" parent="2" source="8" target="10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="ARailsGameState::RegisterRailsActor&#xa;Array =&gt; RailsPhysicsStatesToAdd" style="" parent="2" vertex="1">
+        <mxCell id="8" value="ARailsGameState 注册记录" style="" parent="2" vertex="1">
           <mxGeometry x="118.5" y="234" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wbHjeguqodvjs2tDxC9u-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="2" source="10" target="wbHjeguqodvjs2tDxC9u-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="ARailsGameState::BeginPlay&#xa;ARailsGameState::InitPhysScene&#xa;初始化物理场景" style="" parent="2" vertex="1">
-          <mxGeometry x="121" y="344" width="270" height="46" as="geometry" />
+        <mxCell id="10" value="初始化物理场景" style="" parent="2" vertex="1">
+          <mxGeometry x="121" y="392" width="270" height="46" as="geometry" />
         </mxCell>
         <mxCell id="wbHjeguqodvjs2tDxC9u-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;verticalAlign=bottom;" edge="1" parent="2" source="wbHjeguqodvjs2tDxC9u-44">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="254" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wbHjeguqodvjs2tDxC9u-44" value="ARailsBaseActor::BeginPlay&lt;br&gt;载具启动" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="2">
+        <mxCell id="wbHjeguqodvjs2tDxC9u-44" value="载具启动" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="2">
           <mxGeometry x="121" y="102" width="265" height="78" as="geometry" />
         </mxCell>
         <mxCell id="wbHjeguqodvjs2tDxC9u-45" value="UActorComponent::CreatePhysicsState&lt;br&gt;ARailsGameState::RegisterPrimitiveComponent(UPrimitiveComponent* pc)&lt;br&gt;更新物理体的形态、位置" style="html=1;fontColor=#000000;" vertex="1" parent="2">
-          <mxGeometry x="44.5" y="471" width="423" height="78" as="geometry" />
+          <mxGeometry x="44.5" y="549" width="423" height="78" as="geometry" />
         </mxCell>
         <mxCell id="wbHjeguqodvjs2tDxC9u-54" value="ARailsBaseActor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" vertex="1" parent="2">
           <mxGeometry x="400" y="111" width="160" height="60" as="geometry" />
@@ -63,6 +66,18 @@
           <mxGeometry y="52" width="350" height="8" as="geometry" />
         </mxCell>
         <mxCell id="wbHjeguqodvjs2tDxC9u-63" value="+ RegisterRailsActor(ARailsBaseActor* actor): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="wbHjeguqodvjs2tDxC9u-60">
+          <mxGeometry y="60" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wbHjeguqodvjs2tDxC9u-79" value="ARailsGameState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" vertex="1" parent="2">
+          <mxGeometry x="400" y="372" width="350" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="wbHjeguqodvjs2tDxC9u-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#000000;" vertex="1" parent="wbHjeguqodvjs2tDxC9u-79">
+          <mxGeometry y="26" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wbHjeguqodvjs2tDxC9u-82" value="+ BeginPlay: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="wbHjeguqodvjs2tDxC9u-79">
+          <mxGeometry y="34" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wbHjeguqodvjs2tDxC9u-83" value="+ InitPhysScene: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="wbHjeguqodvjs2tDxC9u-79">
           <mxGeometry y="60" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3" value="PxThread 2" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
