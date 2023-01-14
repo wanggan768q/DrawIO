@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-14T04:17:52.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1hwONd24ESeoeYdkTbMW" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-14T04:18:37.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Y8eVmY73chFQj5r_SJuT" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2603" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
         <mxCell id="wbHjeguqodvjs2tDxC9u-106" value="启动物理线程" style="" parent="2" vertex="1">
           <mxGeometry x="121" y="690" width="270" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="wbHjeguqodvjs2tDxC9u-114" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;width=34;endSize=7.33;" parent="2" edge="1">
+        <mxCell id="wbHjeguqodvjs2tDxC9u-114" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;width=34;endSize=7.33;fillColor=#f8cecc;strokeColor=#b85450;" parent="2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="715" as="sourcePoint" />
             <mxPoint x="1020" y="715" as="targetPoint" />
