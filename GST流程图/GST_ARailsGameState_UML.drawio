@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T07:39:11.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="DEIb6Y81XNk9VmB1z_ym" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T08:49:40.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TjWmuPWirXQqeMEmjV5B" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="3088" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -104,20 +104,20 @@
         <mxCell id="wbHjeguqodvjs2tDxC9u-106" value="启动物理线程" style="" parent="2" vertex="1">
           <mxGeometry x="121" y="690" width="270" height="46" as="geometry" />
         </mxCell>
+        <mxCell id="wbHjeguqodvjs2tDxC9u-120" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="2" source="wbHjeguqodvjs2tDxC9u-117" target="wbHjeguqodvjs2tDxC9u-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="478" y="844.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wbHjeguqodvjs2tDxC9u-114" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;width=34;endSize=7.33;fillColor=#f8cecc;strokeColor=#b85450;" parent="2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="715" as="sourcePoint" />
             <mxPoint x="1020" y="715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wbHjeguqodvjs2tDxC9u-115" value="启动物理线程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="wbHjeguqodvjs2tDxC9u-114" vertex="1" connectable="0">
+        <mxCell id="wbHjeguqodvjs2tDxC9u-115" value="启动物理线程，创建物理线程的 Tick锁 和 TickDone锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="wbHjeguqodvjs2tDxC9u-114" vertex="1" connectable="0">
           <mxGeometry x="-0.2103" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wbHjeguqodvjs2tDxC9u-120" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="2" source="wbHjeguqodvjs2tDxC9u-117" target="wbHjeguqodvjs2tDxC9u-119" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="478" y="844.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wbHjeguqodvjs2tDxC9u-117" value="创建 DlgOnWorldPreActorTick 委托" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" parent="2" vertex="1">
@@ -141,15 +141,18 @@
           <mxGeometry x="491" y="1180.5" width="242" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3" value="PxThread" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="800" y="150" width="715.5" height="1020" as="geometry" />
+          <mxGeometry x="790" y="150" width="715.5" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="13" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="3" vertex="1">
           <mxGeometry x="350" y="581" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" parent="3" source="13" edge="1">
+        <mxCell id="14" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3" source="13" edge="1" target="FNyUqGdwHOKe_9VwY6Nw-47">
           <mxGeometry x="330" y="561" as="geometry">
             <mxPoint x="365" y="676" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FNyUqGdwHOKe_9VwY6Nw-47" value="创建物理线程" style="" vertex="1" parent="3">
+          <mxGeometry x="230" y="690" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="x4Ofn-lIwSmjH5Ii23ha-21" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-1350" y="1020" width="1103" height="1300" as="geometry" />
