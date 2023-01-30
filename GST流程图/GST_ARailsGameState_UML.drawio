@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T09:28:14.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RoOhE8EzJoLdfHhznFhC" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T02:28:03.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="eqgIGycwdQR20TIvB21E" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="3020" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -176,7 +176,7 @@
             <mxPoint x="612" y="1470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-14" value="ARailsGameState::RailsTickPreAdvance&lt;br&gt;&lt;br&gt;遍历已有物理状态的载具对象，根据载具最后一次的时间戳小于挂钟时间（服务器时间），得到需要下个阶段需要处理的载具对象" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-14" value="ARailsGameState::RailsTickPreAdvance&lt;br&gt;&lt;br&gt;遍历已有物理状态的载具对象，根据载具最后一次的时间戳小于挂钟时间（服务器时间），得到下个阶段需要处理的载具对象,此操作是为了下个阶段减少遍历" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
           <mxGeometry x="468" y="1330" width="288" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FNyUqGdwHOKe_9VwY6Nw-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.517;exitDx=0;exitDy=0;exitPerimeter=0;" parent="3" source="FNyUqGdwHOKe_9VwY6Nw-50" target="FNyUqGdwHOKe_9VwY6Nw-52" edge="1">
