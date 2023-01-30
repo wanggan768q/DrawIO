@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T06:54:10.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2kQWwXMv0DGQoDgnFfn1" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T07:02:24.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pxpwvUdPJ22t55hur7p5" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="3020" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3" value="PxThread" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="780" y="110" width="715.5" height="1630" as="geometry" />
+          <mxGeometry x="780" y="110" width="715.5" height="1820" as="geometry" />
         </mxCell>
         <mxCell id="13" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="3" vertex="1">
           <mxGeometry x="350" y="581" width="30" height="30" as="geometry" />
@@ -23,11 +23,11 @@
         <mxCell id="FNyUqGdwHOKe_9VwY6Nw-47" value="创建物理线程" style="" parent="3" vertex="1">
           <mxGeometry x="230" y="690" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FNyUqGdwHOKe_9VwY6Nw-52" value="触发物理线程TIck&lt;br&gt;ARailsGameState::RailsTickAdvance" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="3" vertex="1">
-          <mxGeometry x="240" y="1491" width="250" height="60" as="geometry" />
+        <mxCell id="FNyUqGdwHOKe_9VwY6Nw-52" value="触发物理线程TIck&lt;br&gt;&lt;br&gt;ARailsGameState::RailsTickAdvance&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;TODO 性能比较费遍历过多&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;查看详细说明" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="3" vertex="1">
+          <mxGeometry x="240" y="1466" width="250" height="99" as="geometry" />
         </mxCell>
         <mxCell id="2" value="GameThread" style="swimlane;whiteSpace=wrap" parent="3" vertex="1">
-          <mxGeometry x="-970" y="-10" width="970" height="1640" as="geometry" />
+          <mxGeometry x="-970" y="-10" width="970" height="1830" as="geometry" />
         </mxCell>
         <mxCell id="wbHjeguqodvjs2tDxC9u-78" value="" style="rounded=1;whiteSpace=wrap;html=1;direction=east;labelBackgroundColor=none;labelBorderColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="2" vertex="1">
           <mxGeometry x="40" y="340" width="820" height="620" as="geometry" />
@@ -168,20 +168,18 @@
         <mxCell id="FNyUqGdwHOKe_9VwY6Nw-48" value="大于 1 / 30 = 0.0625秒" style="rhombus;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="2" vertex="1">
           <mxGeometry x="503" y="1160" width="218" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FNyUqGdwHOKe_9VwY6Nw-50" value="ARailsGameState::RailsTickAdvance&lt;br&gt;&lt;br&gt;TODO 性能比较费遍历过多&lt;br&gt;查看详细说明" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="2" vertex="1">
-          <mxGeometry x="495" y="1510" width="236" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="9S8jufjxf9AL1k6iHCJB-14" target="FNyUqGdwHOKe_9VwY6Nw-50">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="612" y="1470" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-418" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="9S8jufjxf9AL1k6iHCJB-14" target="9S8jufjxf9AL1k6iHCJB-417">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9S8jufjxf9AL1k6iHCJB-14" value="ARailsGameState::RailsTickPreAdvance&lt;br&gt;&lt;br&gt;1.遍历已有物理状态的载具对象，根据载具最后一次的时间戳小于挂钟时间（服务器时间），得到下个阶段需要处理的载具对象,此操作是为了下个阶段减少遍历（unwindList1）&lt;br&gt;2.得到玩所控制的载具队列" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
-          <mxGeometry x="468" y="1330" width="292" height="100" as="geometry" />
+          <mxGeometry x="466" y="1330" width="292" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FNyUqGdwHOKe_9VwY6Nw-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.517;exitDx=0;exitDy=0;exitPerimeter=0;" parent="3" source="FNyUqGdwHOKe_9VwY6Nw-50" target="FNyUqGdwHOKe_9VwY6Nw-52" edge="1">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-417" value="" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
+          <mxGeometry x="552" y="1575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNyUqGdwHOKe_9VwY6Nw-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3" target="FNyUqGdwHOKe_9VwY6Nw-52" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-230" y="1350" as="sourcePoint" />
+            <mxPoint x="-360" y="1532" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x4Ofn-lIwSmjH5Ii23ha-21" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
@@ -440,7 +438,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9S8jufjxf9AL1k6iHCJB-358" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="1770" width="1103" height="1200" as="geometry" />
+          <mxGeometry x="-160" y="1990" width="1103" height="1200" as="geometry" />
         </mxCell>
         <mxCell id="9S8jufjxf9AL1k6iHCJB-359" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-358">
           <mxGeometry width="1103" height="100" as="geometry" />
