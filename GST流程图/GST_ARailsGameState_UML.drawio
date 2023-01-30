@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T09:46:17.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9k38yNqGFTT7e27sI5xI" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T09:46:37.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JM25XsNmSH9UZrc8TePL" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="3020" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -471,7 +471,7 @@
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-366" value="1.根据上一阶段得到的处理队列(unwindList1)，跟所有载具进行范围判断，是否需要下个阶段继续处理,得到处理队列（unwindList2）&lt;br&gt;2.玩家控制的载具跟（unwindList2）比较，取得最小的模拟时间戳作为开始模拟的时间戳&lt;br&gt;3.根据获取的最小时间戳开始模拟，直到跟服务器的时间戳一致（最坏情况只会模拟100次），PS：所以当模拟开始的时间戳跟服务器的差大于100的情况下，有可能会丢失模拟。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-363">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-366" value="1.根据上一阶段得到的处理队列(unwindList1)，跟所有载具进行范围判断，是否需要下个阶段继续处理,得到处理队列（unwindList2）&lt;br&gt;2.玩家控制的载具跟（unwindList2）比较，取得最小的模拟时间戳作为开始模拟的时间戳&lt;br&gt;3.根据获取的最小时间戳开始模拟，直到跟服务器的时间戳一致（最坏情况只会模拟100次），&lt;font color=&quot;#ff0000&quot;&gt;PS：所以当模拟开始的时间戳跟服务器的差大于100的情况下，有可能会丢失模拟。&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-363">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
