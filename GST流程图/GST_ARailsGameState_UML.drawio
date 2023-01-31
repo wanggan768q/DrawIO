@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T02:57:01.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="89Cs_vrsYY4bJ6r2cZ9R" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:57:45.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="QC2jfy7Lq1HSHBoRfO2o" version="20.8.5" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="3020" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -507,7 +507,7 @@
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-374" value="1.设置每个刚体为动态刚体，并且添加一个向下的力（模拟重力），设置每个形状的模拟碰撞过滤通道（每个载具有多个盒子组成，每个都需要单独设置）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-371">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-374" value="1.设置每个刚体为动态刚体，并且添加一个向下的力（模拟重力），设置每个形状的模拟碰撞过滤通道（每个载具有多个盒子组成，每个都需要单独设置）&lt;br&gt;2.若果设置了CCD，也会处理CCD" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-371">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
