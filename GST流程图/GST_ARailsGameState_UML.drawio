@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T02:18:26.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5FUCSzLyuiHS2g66DaYP" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T07:00:07.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8p6EMCr_sPK3O2mi2Sbu" version="20.8.14" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="3163" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3163" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,44 +162,44 @@
         <mxCell id="wbHjeguqodvjs2tDxC9u-122" value="ARailsGameState::RailsTickA&lt;br&gt;请查看详细说明" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;align=center;" parent="2" vertex="1">
           <mxGeometry x="441" y="1009" width="342" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="FNyUqGdwHOKe_9VwY6Nw-48" target="9S8jufjxf9AL1k6iHCJB-14">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2" source="FNyUqGdwHOKe_9VwY6Nw-48" target="9S8jufjxf9AL1k6iHCJB-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FNyUqGdwHOKe_9VwY6Nw-48" value="大于 1 / 30 = 0.0625秒" style="rhombus;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="2" vertex="1">
           <mxGeometry x="503" y="1160" width="218" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-418" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="9S8jufjxf9AL1k6iHCJB-14" target="9S8jufjxf9AL1k6iHCJB-417">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-418" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2" source="9S8jufjxf9AL1k6iHCJB-14" target="9S8jufjxf9AL1k6iHCJB-417" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-14" value="ARailsGameState::RailsTickPreAdvance&lt;br&gt;&lt;br&gt;1.遍历已有物理状态的载具对象，根据载具最后一次的时间戳小于挂钟时间（服务器时间），得到下个阶段需要处理的载具对象,此操作是为了下个阶段减少遍历（unwindList1）&lt;br&gt;2.得到玩所控制的载具队列" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-14" value="ARailsGameState::RailsTickPreAdvance&lt;br&gt;&lt;br&gt;1.遍历已有物理状态的载具对象，根据载具最后一次的时间戳小于挂钟时间（服务器时间），得到下个阶段需要处理的载具对象,此操作是为了下个阶段减少遍历（unwindList1）&lt;br&gt;2.得到玩所控制的载具队列" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="2" vertex="1">
           <mxGeometry x="466" y="1330" width="292" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-426" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="2" source="9S8jufjxf9AL1k6iHCJB-417" target="9S8jufjxf9AL1k6iHCJB-425">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-426" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" parent="2" source="9S8jufjxf9AL1k6iHCJB-417" target="9S8jufjxf9AL1k6iHCJB-425" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-417" value="ARailsGameState::Tick" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-417" value="ARailsGameState::Tick" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="2" vertex="1">
           <mxGeometry x="483" y="1590" width="258" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-424" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="2" source="9S8jufjxf9AL1k6iHCJB-420" target="9S8jufjxf9AL1k6iHCJB-423">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-424" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" parent="2" source="9S8jufjxf9AL1k6iHCJB-420" target="9S8jufjxf9AL1k6iHCJB-423" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-420" value="ARailsGameState::RailsTickPostAdvance" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-420" value="ARailsGameState::RailsTickPostAdvance" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="2" vertex="1">
           <mxGeometry x="467" y="1950" width="288" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-423" value="ARailsGameState::RailsTickC" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-423" value="ARailsGameState::RailsTickC" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="2" vertex="1">
           <mxGeometry x="502" y="2100" width="218" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-427" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="9S8jufjxf9AL1k6iHCJB-425" target="9S8jufjxf9AL1k6iHCJB-420">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-427" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="9S8jufjxf9AL1k6iHCJB-425" target="9S8jufjxf9AL1k6iHCJB-420" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="612" y="1900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-429" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="9S8jufjxf9AL1k6iHCJB-427">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-429" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" parent="9S8jufjxf9AL1k6iHCJB-427" vertex="1" connectable="0">
           <mxGeometry x="-0.1615" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-428" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2" source="9S8jufjxf9AL1k6iHCJB-425" target="9S8jufjxf9AL1k6iHCJB-423">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-428" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="2" source="9S8jufjxf9AL1k6iHCJB-425" target="9S8jufjxf9AL1k6iHCJB-423" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="860" y="1775" as="targetPoint" />
             <Array as="points">
@@ -208,12 +208,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-430" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="9S8jufjxf9AL1k6iHCJB-428">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-430" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" parent="9S8jufjxf9AL1k6iHCJB-428" vertex="1" connectable="0">
           <mxGeometry x="-0.156" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-425" value="物理线程的TIck 是否停止" style="rhombus;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="2">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-425" value="物理线程的TIck 是否停止" style="rhombus;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;" parent="2" vertex="1">
           <mxGeometry x="523" y="1730" width="178" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FNyUqGdwHOKe_9VwY6Nw-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3" target="FNyUqGdwHOKe_9VwY6Nw-52" edge="1">
@@ -224,476 +224,476 @@
         <mxCell id="x4Ofn-lIwSmjH5Ii23ha-21" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-1600" y="1030" width="1103" height="1400" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-129" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-129" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-130" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-129">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-130" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-129" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-131" value="ARailsGameState::RailsTickA" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;rowspan=1;colspan=2;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-129">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-131" value="ARailsGameState::RailsTickA" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;rowspan=1;colspan=2;" parent="9S8jufjxf9AL1k6iHCJB-129" vertex="1">
           <mxGeometry x="60" width="1043" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-132" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" visible="0" parent="9S8jufjxf9AL1k6iHCJB-129">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-132" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="9S8jufjxf9AL1k6iHCJB-129" vertex="1" visible="0">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-125" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-125" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="100" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-126" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-125">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-126" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-125" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-127" value="STAT_fdcar_ARailsGameState_RailsTickA_teleports" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-125">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-127" value="STAT_fdcar_ARailsGameState_RailsTickA_teleports" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-125" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-128" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;强制修正载具的位置,包括启动物理和非启动物理的所有载具，并且包括自己屏幕上别人载具的数据，当前此载具此类载具等待网络同步的时间强制是2，（RequestNetworkDataRetryTimer = 2.0f;）&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-125">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-128" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;强制修正载具的位置,包括启动物理和非启动物理的所有载具，并且包括自己屏幕上别人载具的数据，当前此载具此类载具等待网络同步的时间强制是2，（RequestNetworkDataRetryTimer = 2.0f;）&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="9S8jufjxf9AL1k6iHCJB-125" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-121" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-121" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="200" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-122" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-121">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-122" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-121" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-123" value="STAT_fdcar_ARailsGameState_RailsTickA_new_cars" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-121">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-123" value="STAT_fdcar_ARailsGameState_RailsTickA_new_cars" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-121" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-124" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;创建新的载具，但是关闭对应载具的TIck,通过上个步骤进行激活操作之后才启用对应的Tick&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-121">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-124" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;创建新的载具，但是关闭对应载具的TIck,通过上个步骤进行激活操作之后才启用对应的Tick&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-121" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-117" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-117" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="300" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-118" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-117">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-118" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-117" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-119" value="STAT_fdcar_ARailsGameState_RailsTickA_del_cars" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-117">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-119" value="STAT_fdcar_ARailsGameState_RailsTickA_del_cars" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-117" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-120" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;删除载具,通过载具的EndPlay统计是否需要删除，并且从物理场景删除以及内存释放&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-117">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-120" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;删除载具,通过载具的EndPlay统计是否需要删除，并且从物理场景删除以及内存释放&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="9S8jufjxf9AL1k6iHCJB-117" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-113" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-113" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="400" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-114" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-113">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-114" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-113" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-115" value="STAT_fdcar_ARailsGameState_RailsTickA_new_geo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-113">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-115" value="STAT_fdcar_ARailsGameState_RailsTickA_new_geo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-113" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-116" value="给物理场景创建静态Mesh,包括所有的载具和需要物理碰撞的物件，比如，地面、墙，并且添加一个对应的物理状态数据，等到 7号步骤使用" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-113">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-116" value="给物理场景创建静态Mesh,包括所有的载具和需要物理碰撞的物件，比如，地面、墙，并且添加一个对应的物理状态数据，等到 7号步骤使用" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-113" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-109" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-109" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="500" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-110" value="5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-109">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-110" value="5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-109" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-111" value="STAT_fdcar_ARailsGameState_RailsTickA_del_geo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-109">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-111" value="STAT_fdcar_ARailsGameState_RailsTickA_del_geo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-109" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-112" value="在物理场景删除对应的静态Mesh" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-109">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-112" value="在物理场景删除对应的静态Mesh" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-109" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-105" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-105" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="600" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-106" value="6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-105">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-106" value="6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-105" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-107" value="STAT_fdcar_ARailsGameState_RailsTickA_rbld_shapes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-105">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-107" value="STAT_fdcar_ARailsGameState_RailsTickA_rbld_shapes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-105" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-108" value="rebuild shapes that changed，&lt;br&gt;把载具在物理场景里根据自己的物理状态数据重置，操作步骤是先从物理场景里删除，然后重新创建一个新的刚体（重置所有数据，包括物理几何形态、以及刚体的标志）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-105">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-108" value="rebuild shapes that changed，&lt;br&gt;把载具在物理场景里根据自己的物理状态数据重置，操作步骤是先从物理场景里删除，然后重新创建一个新的刚体（重置所有数据，包括物理几何形态、以及刚体的标志）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-105" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-101" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-101" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="700" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-102" value="7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-101">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-102" value="7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-101" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-103" value="STAT_fdcar_ARailsGameState_RailsTickA_mov_shapes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-101">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-103" value="STAT_fdcar_ARailsGameState_RailsTickA_mov_shapes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-101" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-104" value="1. 在物理场景修改一些性状的位置信息，这个位置是相当于PxActor的，比如打开车门，门在每帧的位置变化。&lt;br&gt;2. 记录当前所有玩家的位置信息（仅记录信息，无操作）&lt;br&gt;3. 处理所有的物理状态，数据来源2号步骤。并且根据死亡状态重置车轮，关闭物理模拟，关闭碰撞" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-101">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-104" value="1. 在物理场景修改一些性状的位置信息，这个位置是相当于PxActor的，比如打开车门，门在每帧的位置变化。&lt;br&gt;2. 记录当前所有玩家的位置信息（仅记录信息，无操作）&lt;br&gt;3. 处理所有的物理状态，数据来源2号步骤。并且根据死亡状态重置车轮，关闭物理模拟，关闭碰撞" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-101" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-97" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-97" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="800" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-98" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-97">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-98" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-97" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-99" value="STAT_fdcar_ARailsGameState_TickCar 属于7号状态的子状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-97">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-99" value="STAT_fdcar_ARailsGameState_TickCar 属于7号状态的子状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-97" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-100" value="1. 关闭载具自身的Tick功能（UE Tick），&lt;br&gt;2. 如果是服务器，载具的Tick的频率是 （1 / 5 = 0.2）0.2秒执行一次&lt;br&gt;3. 如果是客户端，载具非休眠状态并且不是玩家控制的TIck频率也是 0.2秒执行一次，其他情况根据配置的重要性进行Tick" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-97">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-100" value="1. 关闭载具自身的Tick功能（UE Tick），&lt;br&gt;2. 如果是服务器，载具的Tick的频率是 （1 / 5 = 0.2）0.2秒执行一次&lt;br&gt;3. 如果是客户端，载具非休眠状态并且不是玩家控制的TIck频率也是 0.2秒执行一次，其他情况根据配置的重要性进行Tick" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-97" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-93" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-93" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="900" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-94" value="8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-93">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-94" value="8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-93" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-95" value="STAT_fdcar_ARailsGameState_UpdateProps" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-93">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-95" value="STAT_fdcar_ARailsGameState_UpdateProps" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-93" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-96" value="1. 处理需要删除的物件&lt;br&gt;2. 初始化物件，并且添加到物理场景&lt;br&gt;3. 延迟启用在Cell范围内的物件&lt;br&gt;4. 延迟禁用物件（被破坏的物件）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-93">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-96" value="1. 处理需要删除的物件&lt;br&gt;2. 初始化物件，并且添加到物理场景&lt;br&gt;3. 延迟启用在Cell范围内的物件&lt;br&gt;4. 延迟禁用物件（被破坏的物件）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-93" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-89" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-89" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="1000" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-90" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-89">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-90" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-89" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-91" value="STAT_fdcar_ARailsGameState_PropsRanges" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-89">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-91" value="STAT_fdcar_ARailsGameState_PropsRanges" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-89" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-92" value="1. 在物理场景移除不在范围内的物件，并计算出哪些新物件出现在范围内，等待下次启用物件&lt;br&gt;2. 根据玩家当前位置，计算下次需要更新哪个cell,每帧只会计算出一个cell需要更新" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-89">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-92" value="1. 在物理场景移除不在范围内的物件，并计算出哪些新物件出现在范围内，等待下次启用物件&lt;br&gt;2. 根据玩家当前位置，计算下次需要更新哪个cell,每帧只会计算出一个cell需要更新" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-89" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-85" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-85" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="1100" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-86" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-85">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-86" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-85" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-87" value="STAT_fdcar_ARailsGameState_PropsBroken" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-85">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-87" value="STAT_fdcar_ARailsGameState_PropsBroken" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-85" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-88" value="1. 物件破碎，根据物理世界的事件&amp;nbsp;FRailsContactsModifier，来得到哪些物件和车发生了碰撞" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-85">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-88" value="1. 物件破碎，根据物理世界的事件&amp;nbsp;FRailsContactsModifier，来得到哪些物件和车发生了碰撞" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-85" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-81" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-81" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="1200" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-82" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#666666;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;gradientColor=#b3b3b3;rowspan=1;colspan=3;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-81">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-82" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#666666;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;gradientColor=#b3b3b3;rowspan=1;colspan=3;" parent="9S8jufjxf9AL1k6iHCJB-81" vertex="1">
           <mxGeometry width="1103" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-83" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#666666;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;gradientColor=#b3b3b3;" vertex="1" visible="0" parent="9S8jufjxf9AL1k6iHCJB-81">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-83" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#666666;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;gradientColor=#b3b3b3;" parent="9S8jufjxf9AL1k6iHCJB-81" vertex="1" visible="0">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-84" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#666666;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;gradientColor=#b3b3b3;" vertex="1" visible="0" parent="9S8jufjxf9AL1k6iHCJB-81">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-84" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#666666;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;gradientColor=#b3b3b3;" parent="9S8jufjxf9AL1k6iHCJB-81" vertex="1" visible="0">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-77" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="x4Ofn-lIwSmjH5Ii23ha-21">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-77" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="x4Ofn-lIwSmjH5Ii23ha-21" vertex="1">
           <mxGeometry y="1300" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-78" value="如果是服务器，根据同步频率计算是否同步玩家的服务器时间戳，每帧只会同步一个玩家。（比如当前地图有10个玩家，那么需要10帧才能同步完）&lt;br&gt;&lt;br&gt;如果是客户端，当前时间戳小于服务器时间戳就会以 1.1 倍的的速度追赶服务器，如果时间戳大于服务器时间戳就会以0.9倍的数据等待服务器最新的通知" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;rowspan=1;colspan=3;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-77">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-78" value="如果是服务器，根据同步频率计算是否同步玩家的服务器时间戳，每帧只会同步一个玩家。（比如当前地图有10个玩家，那么需要10帧才能同步完）&lt;br&gt;&lt;br&gt;如果是客户端，当前时间戳小于服务器时间戳就会以 1.1 倍的的速度追赶服务器，如果时间戳大于服务器时间戳就会以0.9倍的数据等待服务器最新的通知" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;rowspan=1;colspan=3;" parent="9S8jufjxf9AL1k6iHCJB-77" vertex="1">
           <mxGeometry width="1103" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-79" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" visible="0" parent="9S8jufjxf9AL1k6iHCJB-77">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-79" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-77" vertex="1" visible="0">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" visible="0" parent="9S8jufjxf9AL1k6iHCJB-77">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-77" vertex="1" visible="0">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-358" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-358" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-1600" y="2490" width="1103" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-359" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-358">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-359" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-358" vertex="1">
           <mxGeometry width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-360" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-359">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-360" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-359" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-361" value="ARailsGameState::RailsTickAdvance" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;rowspan=1;colspan=2;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-359">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-361" value="ARailsGameState::RailsTickAdvance" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;rowspan=1;colspan=2;" parent="9S8jufjxf9AL1k6iHCJB-359" vertex="1">
           <mxGeometry x="60" width="1043" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-362" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" visible="0" parent="9S8jufjxf9AL1k6iHCJB-359">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-362" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="9S8jufjxf9AL1k6iHCJB-359" vertex="1" visible="0">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-363" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-358">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-363" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-358" vertex="1">
           <mxGeometry y="100" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-364" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-363">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-364" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-363" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-365" value="STAT_fdcar_ARailsGameState_RailsTickAdvance" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-363">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-365" value="STAT_fdcar_ARailsGameState_RailsTickAdvance" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-363" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-366" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1.根据上一阶段得到的处理队列(unwindList1)，跟所有载具进行范围判断，是否需要下个阶段继续处理,得到处理队列（unwindList2）&lt;br&gt;2.玩家控制的载具跟（unwindList2）比较，取得最小的模拟时间戳作为开始模拟的时间戳&lt;br&gt;3.根据获取的最小时间戳开始模拟，直到跟服务器的时间戳一致（最坏情况只会模拟100次），&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff0000&quot;&gt;PS：所以当模拟开始的时间戳跟服务器的差大于100的情况下，有可能会丢失模拟。&lt;/font&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-363">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-366" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1.根据上一阶段得到的处理队列(unwindList1)，跟所有载具进行范围判断，是否需要下个阶段继续处理,得到处理队列（unwindList2）&lt;br&gt;2.玩家控制的载具跟（unwindList2）比较，取得最小的模拟时间戳作为开始模拟的时间戳&lt;br&gt;3.根据获取的最小时间戳开始模拟，直到跟服务器的时间戳一致（最坏情况只会模拟100次），&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff0000&quot;&gt;PS：所以当模拟开始的时间戳跟服务器的差大于100的情况下，有可能会丢失模拟。&lt;/font&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="9S8jufjxf9AL1k6iHCJB-363" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-367" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-358">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-367" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-358" vertex="1">
           <mxGeometry y="200" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-368" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-367">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-368" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-367" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-369" value="STAT_fdcar_APS_PhysxPreSolver（N）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-367">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-369" value="STAT_fdcar_APS_PhysxPreSolver（N）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-367" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-370" value="1.设置BodyProps物理位置（参考点是质心）&lt;br&gt;2.如果是需要休息的刚体，则设重置线性速度和角速度，并且在物理世界设置为Sleep状态&lt;br&gt;3.载具碰撞通知（根据之前模拟状态数据检测是否发生了碰撞）。并且在碰撞点添加一个冲量。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-367">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-370" value="1.设置BodyProps物理位置（参考点是质心）&lt;br&gt;2.如果是需要休息的刚体，则设重置线性速度和角速度，并且在物理世界设置为Sleep状态&lt;br&gt;3.载具碰撞通知（根据之前模拟状态数据检测是否发生了碰撞）。并且在碰撞点添加一个冲量。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-367" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-371" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-358">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-371" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-358" vertex="1">
           <mxGeometry y="300" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-372" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-371">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-372" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-371" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-373" value="AdvanceSimulateByPhysxIntegrate（PS:此处缺少打点信息）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-371">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-373" value="AdvanceSimulateByPhysxIntegrate（PS:此处缺少打点信息）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-371" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-374" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1.设置每个刚体为动态刚体，并且添加一个向下的力（模拟重力），设置每个形状的模拟碰撞过滤通道（每个载具有多个盒子组成，每个都需要单独设置）&lt;br&gt;2.若果设置了CCD，也会处理CCD&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-371">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-374" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1.设置每个刚体为动态刚体，并且添加一个向下的力（模拟重力），设置每个形状的模拟碰撞过滤通道（每个载具有多个盒子组成，每个都需要单独设置）&lt;br&gt;2.若果设置了CCD，也会处理CCD&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="9S8jufjxf9AL1k6iHCJB-371" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-375" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-358">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-375" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-358" vertex="1">
           <mxGeometry y="400" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-376" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-375">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-376" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-375" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-377" value="STAT_fdcar_APS_SimulateAndFetch" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-375">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-377" value="STAT_fdcar_APS_SimulateAndFetch" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-375" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-378" value="1.物理场景开始模拟（每次模拟的经过时间为 1 / 30 / 2）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-375">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-378" value="1.物理场景开始模拟（每次模拟的经过时间为 1 / 30 / 2）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-375" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-379" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-358">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-379" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-358" vertex="1">
           <mxGeometry y="500" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-380" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-379">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-380" value="4" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-379" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-381" value="STAT_fdcar_APS_PhysxPostSolver（N）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-379">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-381" value="STAT_fdcar_APS_PhysxPostSolver（N）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-379" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-382" value="1.物理模拟之后，来触发时载具和载具之间的碰撞通知，载具跟物件的碰撞通知以及相关的冲量&lt;br&gt;2.如果当前载具非自己的并且是客户端，则激活本地状态并且强制设置本地位置&lt;font color=&quot;#ff0000&quot;&gt;（此时此载具的位置跟服务器的位置有可能不一致）&lt;/font&gt;&lt;br&gt;3.碰撞的载具给自身接触到的所有载具设置碰撞标识，并且设置对应的线速度和角速度以及位置信息" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-379">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-382" value="1.物理模拟之后，来触发时载具和载具之间的碰撞通知，载具跟物件的碰撞通知以及相关的冲量&lt;br&gt;2.如果当前载具非自己的并且是客户端，则激活本地状态并且强制设置本地位置&lt;font color=&quot;#ff0000&quot;&gt;（此时此载具的位置跟服务器的位置有可能不一致）&lt;/font&gt;&lt;br&gt;3.碰撞的载具给自身接触到的所有载具设置碰撞标识，并且设置对应的线速度和角速度以及位置信息" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-379" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-431" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-431" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-170" y="2450" width="1103" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-432" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-431">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-432" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-431" vertex="1">
           <mxGeometry width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-433" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-432">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-433" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-432" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-434" value="ARailsGameState::RailsTickC" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;rowspan=1;colspan=2;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-432">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-434" value="ARailsGameState::RailsTickC" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;rowspan=1;colspan=2;" parent="9S8jufjxf9AL1k6iHCJB-432" vertex="1">
           <mxGeometry x="60" width="1043" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-435" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" visible="0" parent="9S8jufjxf9AL1k6iHCJB-432">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-435" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="9S8jufjxf9AL1k6iHCJB-432" vertex="1" visible="0">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-436" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-431">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-436" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-431" vertex="1">
           <mxGeometry y="100" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-437" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-436">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-437" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-436" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-438" value="STAT_fdcar_ARailsGameState_RailsTickC" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-436">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-438" value="STAT_fdcar_ARailsGameState_RailsTickC" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-436" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-439" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-436">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-439" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="9S8jufjxf9AL1k6iHCJB-436" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-440" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-431">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-440" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-431" vertex="1">
           <mxGeometry y="200" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-441" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-440">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-441" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-440" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-442" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-440">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-442" value="STAT_fdcar_ARailsGameState_LL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-440" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-443" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-440">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-443" value="1.根据载具停止位移的时间大于0.5s 就认为是Idle载具，单独的统计了一下，无实际逻辑&lt;br&gt;2.当前载具离哪个玩家最近，如果附近只有一个玩家离的近（1500 cm）,那就重新设置当前载具需要反向同步的玩家Pawn" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-440" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-444" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-431">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-444" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-431" vertex="1">
           <mxGeometry y="300" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-445" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-444">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-445" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-444" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-446" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-444">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-446" value="STAT_fdcar_ARailsGameState_LL_Kinematic" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-444" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-447" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-444">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-447" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" parent="9S8jufjxf9AL1k6iHCJB-444" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-448" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-431">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-448" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-431" vertex="1">
           <mxGeometry y="400" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-449" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-448">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-449" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-448" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-450" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-448">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-450" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-448" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-451" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-448">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-451" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-448" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-452" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-431">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-452" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="9S8jufjxf9AL1k6iHCJB-431" vertex="1">
           <mxGeometry y="500" width="1103" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-453" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-452">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-453" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-452" vertex="1">
           <mxGeometry width="60" height="100" as="geometry">
             <mxRectangle width="60" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-454" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-452">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-454" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;" parent="9S8jufjxf9AL1k6iHCJB-452" vertex="1">
           <mxGeometry x="60" width="360" height="100" as="geometry">
             <mxRectangle width="360" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9S8jufjxf9AL1k6iHCJB-455" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" vertex="1" parent="9S8jufjxf9AL1k6iHCJB-452">
+        <mxCell id="9S8jufjxf9AL1k6iHCJB-455" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;" parent="9S8jufjxf9AL1k6iHCJB-452" vertex="1">
           <mxGeometry x="420" width="683" height="100" as="geometry">
             <mxRectangle width="683" height="100" as="alternateBounds" />
           </mxGeometry>
